@@ -1,0 +1,2 @@
+# StaffCore
+ Staff plugin
