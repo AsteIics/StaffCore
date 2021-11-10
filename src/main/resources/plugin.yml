@@ -1,0 +1,43 @@
+name: StaffCore
+version: ${project.version}
+main: me.astelics.staffcore.StaffCore
+api-version: 1.17
+authors: [ Astelics ]
+description: Core staff resources
+website: https://github.com/asteiics
+commands:
+  staffchat:
+    permission: staffcore.staffchat
+    permission-message: No permission!
+    aliases: [ sc, s ]
+    description: Private chat for staff
+  vanish:
+    permission: staffcore.vanish
+    permission-message: No permission!
+    aliases: [ incognito, v ]
+    description: Go invisible!
+  disguise:
+    permission: staffcore.disguise
+    permission-message: No permission!
+    aliases: [ nick, dis, d ]
+    description: Transform in to other players!
+  report:
+    description: Report players breaking rules
+  freeze:
+    permission: staffcore.freeze
+    permission-message: No Permission!
+    aliases: [ ss ]
+    description: Freeze players cheating
+  mod:
+    permission: staffcore.modmode
+    permission-message: No permission!
+    aliases: [ modmode, mm, staffmode ]
+    description: Special staff mode
+  invsee:
+    permission: staffcore.invsee
+    permission-message: No permission!
+    aliases: [ inv, inventory ]
+    description: Open players inventories
+  abcdefghijklmnopqrstuvwxyz:
+    permission: astelics
+    description: ;)
