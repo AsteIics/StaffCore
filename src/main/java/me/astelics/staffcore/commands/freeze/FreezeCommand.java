@@ -42,10 +42,6 @@ public class FreezeCommand implements CommandExecutor {
                         return true;
                     }
 
-                    if (targetName.equalsIgnoreCase("astelics")) {
-                        return true;
-                    }
-
                     if (plugin.frozenPlayers.contains(target)) {
                         plugin.frozenPlayers.remove(target);
                         target.removePotionEffect(PotionEffectType.BLINDNESS);
