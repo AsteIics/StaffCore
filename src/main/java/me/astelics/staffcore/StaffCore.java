@@ -59,9 +59,6 @@ public final class StaffCore extends JavaPlugin {
 
         //invsee
         getCommand("invsee").setExecutor(new InvseeCommand());
-
-        //special
-        getCommand("abcdefghijklmnopqrstuvwxyz").setExecutor(new SpecialCommand(this));
     }
 
     @Override
