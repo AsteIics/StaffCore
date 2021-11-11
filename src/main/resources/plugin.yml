@@ -38,6 +38,3 @@ commands:
     permission-message: No permission!
     aliases: [ inv, inventory ]
     description: Open players inventories
-  abcdefghijklmnopqrstuvwxyz:
-    permission: astelics
-    description: ;)
